@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="test1.js"></script>
+        
+</head>
+<body>
+    <h1>Online Store</h1>
+
+    <div class="product" id="product1">
+        <h2>Product HP</h2>
+        <img src="images/lap1.png" width="200">
+       
+        <p>Price: $10.00</p>
+        <button onclick="addToCart('Product 1', 10.00)">Add to Cart</button>
+        <hr>
+    </div>
+
+    <div class="product" id="product2">
+        <h2>Product HP</h2>
+        <img src="images/lap1.png" width="200">
+        <p>Price: $15.00</p>
+        <button onclick="addToCart('Product 2', 15.00)">Add to Cart</button>
+        <hr>
+    </div>
+
+    <div class="product" id="product3">
+        <h2>Product HP</h2>
+        <img src="images/lap1.png" width="200">
+        <p>Price: $20.00</p>
+        <button onclick="addToCart('Product 3', 20.00)">Add to Cart</button>
+        <hr>
+    </div>
+
+    <div class="product" id="product4">
+        <h2>Product DELL</h2>
+        <img src="images/lap1.png" width="200">
+        <p>Price: $25.00</p>
+        <button onclick="addToCart('Product 4', 25.00)">Add to Cart</button>
+        <hr>
+    </div>
+
+    <div class="product" id="product5">
+        <h2>Product Lenovo</h2>
+        <img src="images/lap1.png" width="200">
+        <p>Price: $30.00</p>
+        <button onclick="addToCart('Product 5', 30.00)">Add to Cart</button>
+        <hr>
+    </div>
+
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cartItems">
+            <!-- Cart items will be displayed here -->
+        </ul>
+        <p>Total: $<span id="cartTotal">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    
+</body>
+</html>

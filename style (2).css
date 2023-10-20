@@ -1,0 +1,26 @@
+/* CSS for styling */
+body {
+    font-family: Arial, sans-serif;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+.cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button.remove {
+    background-color: #ff0000;
+}
+button:hover {
+    background-color: #45a049;
+}
